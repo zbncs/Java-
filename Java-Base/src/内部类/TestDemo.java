@@ -5,6 +5,7 @@ public class TestDemo {
         // 成员内部类
         内部类分类.InnerClass innerClass = new 内部类分类().new InnerClass();
         innerClass.inner();
+        System.out.println(内部类分类.InnerClass.a);
 
         // 静态内部类
         内部类分类.StaticClass staticClass = new 内部类分类.StaticClass();

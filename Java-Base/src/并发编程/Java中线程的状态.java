@@ -1,3 +1,5 @@
+package 并发编程;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 

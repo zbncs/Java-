@@ -20,7 +20,8 @@ class 内部类分类 {
         }
     }
     // 成员内部类
-    public class InnerClass {
+    class InnerClass {
+        public static String a;
         void inner() {
             System.out.println(age);
             System.out.println(name);
