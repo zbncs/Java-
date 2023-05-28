@@ -59,7 +59,7 @@ public class ArrayMethods {
         /*
         Arrays.equals(arr1, arr2)比较的是内容
         arr1.equals(arr2)：比较的是内存地址
-        Arrays.deepEquals() 方法： 如果两个指定的数组彼此 深度相等 ，则返回 true 
+        Arrays.deepEquals() 方法： 如果两个指定的数组彼此 深度相等 ，则返回 true
          */
         int[] arr1 = {1, 3, 5, 6};
         int[] arr2 = {1, 3, 5, 6};
@@ -88,8 +88,7 @@ public class ArrayMethods {
         int [] arr6=Arrays.copyOf(arr5,6);
         System.out.println(Arrays.toString(arr6));//[1, 9, 3, 7, 0, 0]
 
-
-
+        //
 
     }
 }

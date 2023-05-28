@@ -1,4 +1,4 @@
-package List集合;
+package 集合.Collection单列集合.Set集合;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
