@@ -5,6 +5,8 @@ import java.util.LinkedHashSet;
 import java.util.TreeSet;
 
 /**
+ * Set集合：无序，无索引，不重复
+ *
  *
  */
 
