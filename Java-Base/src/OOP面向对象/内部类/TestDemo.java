@@ -1,4 +1,4 @@
-package 内部类;
+package OOP面向对象.内部类;
 
 public class TestDemo {
     public static void main(String[] args) {

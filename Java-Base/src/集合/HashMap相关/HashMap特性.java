@@ -1,4 +1,4 @@
-package HashMap相关;
+package 集合.HashMap相关;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package 内部类;
+package OOP面向对象.内部类;
 
 class 内部类分类 {
     public String name = "zs";
