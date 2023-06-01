@@ -12,8 +12,11 @@ public class intern方法 {
     public static void main(String[] args) {
         String str1 = "111";
         String str2 = str1.intern();
+        String sss = new String("111").intern();
 
         System.out.println(str1 == str2);
+
+        System.out.println(str1 == sss);
 
         String str3 = new String("222"); // 指向堆中的对象
         String str4 = str3.intern(); // 指向常量池的对象
