@@ -12,6 +12,9 @@ import java.util.List;
  * Object 和 ?
  * Object 是表示任意类型
  * ? 表示未知类型
+ *
+ * 泛型擦除：生成的Class文件不带泛型。
+ * 泛型补偿：在运行时通过获取元素的类型进行转换，不用使用者自己转换了
  */
 
 public class 泛型限制 {
