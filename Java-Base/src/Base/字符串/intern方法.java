@@ -27,5 +27,16 @@ public class intern方法 {
         String str6 = str5.intern(); // 字符串常量池中就不需要再创建新的对象了，而是直接保存堆中对象的引用
 
         System.out.println(str5 == str6);
+
+
+        String str7 = new String("hhh") + "ad";
+        String str8 = str7.intern();
+
+        System.out.println(str7 == str8);
+
+        String str9 = "kkk" + "ll";
+        String str10 = str9.intern();
+
+        System.out.println(str9 == str10);
     }
 }

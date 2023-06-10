@@ -9,6 +9,7 @@ public class 局部内部类 {
         int num = 1;
         public void method() {
             final int x = 2; //
+            // 局部内部类是在方法内部
             class Innter {
                public void test() {
                    //x = 6;

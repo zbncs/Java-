@@ -2,9 +2,6 @@ package 反射;
 
 import 反射.domain.Person;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-
 public class 反射第一步_获取字节码对象 {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException {
 

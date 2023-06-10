@@ -3,7 +3,7 @@ package OOP面向对象.抽象类和接口;
 /**
  * 1、抽象类不能被实例化。
  * 2、抽象类应该至少有一个抽象方法，否则它没有任何意义。
- * 3、抽象类中的抽象方法没有方法体。
+ * 3、抽象类中的*抽象*方法没有方法体。
  * 4、抽象类的子类必须给出父类中的抽象方法全部都得实现，除非该子类也是抽象类。
  *
  *
@@ -15,11 +15,19 @@ package OOP面向对象.抽象类和接口;
  */
 public class 抽象类 {
     public static void main(String[] args) {
-
+        // char, byte, short, int, Character, Byte, Short, Integer, String, or an enum
+        // byte、short、int 或者 char。从 Java SE 7 开始，switch 支持字符串 String 类型了
+        String a = "";
+        switch (a) {
+        }
     }
 }
 
-abstract class Demo {
+class De {
+
+}
+
+abstract class Demo extends De {
     abstract void test();
     private String name;
     private Integer age;
@@ -30,4 +38,7 @@ abstract class Demo {
         this.name = name;
         this.age = age;
     }
+    // 抽象方法只能有定义不能有实现(没有方法体)
+    public abstract void staticFn();
+//    synchronized public abstract void fn();
 }

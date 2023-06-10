@@ -33,5 +33,6 @@ public class 基本数据类型 {
         System.out.println(aChar == 0);
         System.out.println(aChar == '\u0000');
         System.out.println(aBoolean);
+
     }
 }
